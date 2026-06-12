@@ -5,12 +5,12 @@ Wonder                     120
 Bo                          85
 Charlie                    160
 Diana                      150
-Melanie                     85
+Melanie                     75
 --------------------------------------------------
 Total Volunteers: 5
-Total Boxes Sold: 600
-Total Revenue: $3300.00
-Average Boxes: 120.00
+Total Boxes Sold: 590
+Total Revenue: $3245.00
+Average Boxes: 118.00
 
 Top Seller(s): Charlie
 --------------------------------------------------

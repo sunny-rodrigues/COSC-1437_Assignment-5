@@ -5,4 +5,4 @@ Charlie 160
 Diana 150
 Ethan 0
 Frank -6
-Melanie 85
+Melanie 75
