@@ -10,7 +10,7 @@
 
 /*
 ============================================================
-    SECTION 1: Pseudocode Design Block
+SECTION 1: Pseudocode Design Block
 ============================================================
 
 1. Open input file and output file.
