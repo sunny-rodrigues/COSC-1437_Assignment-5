@@ -1,0 +1,8 @@
+5.50
+Wonder 120
+Bo 85
+Charlie 160
+Diana 150
+Ethan 0
+Frank -6
+Melanie 85
