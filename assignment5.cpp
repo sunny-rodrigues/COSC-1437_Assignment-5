@@ -214,24 +214,22 @@ int main()
 // Section 5: NESTED CONTROL STRUCTURES
 // ============================================================
 
-        /*
-        Skeleton code for daily totals verification.
-
-        int dailyTotal = 0;
-        int daySales;
-
-        while(daySales != -999)
+        if (boxesSold > 0)
         {
-            dailyTotal += daySales;
-        }
+             int checkTotal = 0;
 
-        if(dailyTotal != boxesSold)
-        {
-            outFile << "Discrepancy found";
-        }
-        */
-    }
+            for (int i = 0; i < boxesSold; i++)
+            {
+                checkTotal++;
+             }
 
+             if (checkTotal != boxesSold)
+            {
+               outFile << "Verification error for "
+                << volunteerName << endl;
+            }
+        }
+        }
 // ============================================================
 // Section 3: LOOP TYPE SHOWCASE
 // Flag-Controlled Loop
@@ -271,15 +269,18 @@ int main()
 // ============================================================
 // Section 6: BREAK AND CONTINUE DEMONSTRATION
 // Break Statement
+// Search for the first top seller and stop once found.
 // ============================================================
 
-    while (true)
+for (size_t i = 0; i < volunteerBoxes.size(); i++)
+{
+    if (volunteerBoxes[i] == maxBoxes)
     {
-        if (totalRevenue > 0)
-        {
-            break;
-        }
+        cout << "Top seller found: "
+             << volunteerNames[i] << endl;
+        break;
     }
+}
 
 // ============================================================
 // Section 9: FORMATTED OUTPUT
